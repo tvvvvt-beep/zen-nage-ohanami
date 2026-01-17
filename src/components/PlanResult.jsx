@@ -2,7 +2,18 @@ import styles from './PlanResult.module.css';
 import { Card } from './ui/Card';
 import { Button } from './ui/Button';
 
+import confetti from 'canvas-confetti';
+
 export const PlanResult = ({ plan, onReset }) => {
+    // コンポーネント表示時に紙吹雪を発射
+    if (plan) {
+        confetti({
+            particleCount: 150,
+            spread: 70,
+            origin: { y: 0.6 }
+        });
+    }
+
     if (!plan) return null;
 
     const handleShare = () => {
