@@ -1,16 +1,54 @@
-# React + Vite
+# Zen-Nage Ohanami (全投げ花見) 🌸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**「計画は、全部宇宙に投げよう。」**
 
-Currently, two official plugins are available:
+究極の無責任お花見プランナーアプリケーション。
+ボタン一つで、日時・場所・予算・持ち物、そして**責任者**を勝手に決定します。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![App Screenshot](https://via.placeholder.com/800x400?text=Zen-Nage+Preview)
 
-## React Compiler
+## ✨ 特徴
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **全自動責任転嫁**: 誰が幹事をするか、アプリが勝手に決めます。
+- **無責任なロケーション提案**: 近所の公園からサハラ砂漠まで。
+- **絶対のルール**: 「日本語禁止」「全員コスプレ」など、理不尽なルールを強制。
 
-## Expanding the ESLint configuration
+## 🚀 開発の始め方
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 必須要件
+
+- Node.js (v18以上推奨)
+- npm
+
+### インストール & 起動
+
+```bash
+# リポジトリのクローン
+git clone https://github.com/HIWA-DEV/zen-nage-ohanami.git
+
+# ディレクトリへ移動
+cd zen-nage-ohanami
+
+# 依存関係のインストール
+npm install
+
+# 開発サーバーの起動
+npm run dev
+```
+
+ブラウザで `http://localhost:5173` を開いてください。
+
+## 🤝 コラボレーション・貢献について
+
+このプロジェクトは、**ユーモアとカオス**を愛する開発者とのコラボレーションを歓迎します。
+詳細は [CONTRIBUTING.md](./CONTRIBUTING.md) をご覧ください。
+
+## 🛠 技術スタック
+
+- **Framework**: React + Vite
+- **Styling**: Vanilla CSS (CSS Modules & Variables)
+- **Deployment**: Vercel (Planned)
+
+## 📄 License
+
+MIT License

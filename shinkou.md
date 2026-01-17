@@ -33,3 +33,12 @@
 - `src/components/PlanResult.jsx`: 生成結果表示UI。
 - `src/App.jsx`: ステート管理と画面遷移実装。
 - Lint check passed.
+
+**15:05** - GitHub連携完了
+- `gh` CLIインストール & 認証完了。
+- リポジトリ作成: [HIWA-DEV/zen-nage-ohanami](https://github.com/HIWA-DEV/zen-nage-ohanami)
+- コードのプッシュ完了。
+
+**15:08** - コラボレーション環境整備
+- `README.md`: プロジェクト概要、セットアップ手順を記述。
+- `CONTRIBUTING.md`: 開発の心得、PRのルールを追加。
